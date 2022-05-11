@@ -1,0 +1,47 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+/* background-color: skyblue; */
+background-image: linear-gradient(skyblue,plum);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.dot{
+    padding: 30px;
+    margin: 3px;
+    border: 2px solid black;
+    margin-top: 120px;
+    margin-left: 350px;
+    float: left;
+    color: black;
+    text-align: left;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+}
+#sub{
+    background-color: plum;
+    border: none;
+    color: aliceblue;
+    padding: 15px;
+    float: right;
+    text-decoration: none;
+    margin: 4px,2px;
+    cursor: pointer;
+}
+
+
+table.tab {
+    /* border: solid black 1px; */
+    border-spacing: 20px;
+}
+
+tr{
+    padding: 30px;
+}
+.inputbox{
+    padding: 20px;
+}

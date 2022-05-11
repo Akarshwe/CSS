@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    height: 5em;
+}
+.head1{
+    float: right;
+    margin-top: -80px;
+    margin-right: 40%;
+}
+.head1 a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    
+}
+.head2{
+    float: right;
+    margin-top: -80px;
+    margin-right: 2%;
+}
+.head2 a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    border: 2px solid white;
+    margin-right: 10px;
+}
+.head2 a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease-in-out;
+}
+body{
+    background-image: url("../images/gym background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.title1{
+    margin-top: 5px;
+    margin-left: 1%;
+}
+.dot{
+    font-family: 'Raleway', sans-serif;
+    padding: 25px;
+    margin: 3px;
+    border: 2px solid white;
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-left: 120px;
+    float: left;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 410px;
+    width: 370px;
+}
+.log2{
+    font-family: 'Source Code Pro', monospace;
+    height: 30px;
+    float: left;
+    margin: 8px;
+    
+    margin-left: 80px;
+}
+#in{
+    font-family: 'Source Code Pro', monospace;
+    height: 30px;
+    border: 1px solid rgb(255, 253, 253);
+    border-radius: 10px;
+    margin-left: -30px;
+}
+#log1{
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 200px;
+    margin-left: 80px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+#img1{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 63px;
+    width: 63px;
+}
